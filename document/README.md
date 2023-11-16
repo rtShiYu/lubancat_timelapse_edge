@@ -92,3 +92,43 @@ Created symlink /etc/systemd/system/multi-user.target.wants/cron.service → /li
 Processing triggers for man-db (2.8.5-2) ...
 Processing triggers for systemd (241-7~deb10u10) ...
 ```
+
+### 3. Install nano
+
+```c
+cat@lubancat:~$ sudo apt-get install nano
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  libdrm-freedreno1 libdrm-tegra0
+Use 'sudo apt autoremove' to remove them.
+Suggested packages:
+  spell
+The following NEW packages will be installed:
+  nano
+0 upgraded, 1 newly installed, 0 to remove and 52 not upgraded.
+Need to get 541 kB of archives.
+After this operation, 2290 kB of additional disk space will be used.
+Get:1 http://mirrors.ustc.edu.cn/debian buster/main arm64 nano arm64 3.2-3 [541 kB]
+Fetched 541 kB in 0s (1113 kB/s)
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "UTF-8",
+	LC_TERMINAL = "iTerm2",
+	LANG = "C.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to a fallback locale ("C.UTF-8").
+locale: Cannot set LC_CTYPE to default locale: No such file or directory
+locale: Cannot set LC_ALL to default locale: No such file or directory
+Selecting previously unselected package nano.
+(Reading database ... 128840 files and directories currently installed.)
+Preparing to unpack .../archives/nano_3.2-3_arm64.deb ...
+Unpacking nano (3.2-3) ...
+Setting up nano (3.2-3) ...
+update-alternatives: using /bin/nano to provide /usr/bin/editor (editor) in auto mode
+update-alternatives: using /bin/nano to provide /usr/bin/pico (pico) in auto mode
+Processing triggers for man-db (2.8.5-2) ...
+```
