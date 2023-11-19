@@ -132,3 +132,24 @@ update-alternatives: using /bin/nano to provide /usr/bin/editor (editor) in auto
 update-alternatives: using /bin/nano to provide /usr/bin/pico (pico) in auto mode
 Processing triggers for man-db (2.8.5-2) ...
 ```
+
+### 4. Install VLC
+
+```c
+cat@lubancat:~$ sudo apt install vlc
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  libdrm-freedreno1 libdrm-tegra0
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  liba52-0.7.4 libaribb24-0 libbasicusageenvironment1 libcddb2 libdca0
+  libdvbpsi10 libebml4v5 libgroupsock8 libixml10 liblirc-client0
+  liblivemedia64 libmatroska6v5 libmtp-common libmtp9 libnfs12
+  libopenmpt-modplug1 libplacebo7 libprotobuf-lite17 libresid-builder0c2a
+  libsdl-image1.2 libsdl1.2debian libsidplay2 libspatialaudio0 libupnp13
+  libusageenvironment3 libvlc-bin libvlc5 libvlccore9 vlc-bi
+
+...
+```
