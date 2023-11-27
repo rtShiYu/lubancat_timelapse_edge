@@ -1,4 +1,6 @@
 # lubancat_timelapse_edge
+![鲁班猫1](document/lubancat1.jpeg)
+
 This is a story based on Embedfire's lubancat one development board to implement Time-lapse photography and weather forecast.
 
 ## ssh lubancat
@@ -55,6 +57,7 @@ Linux version 4.19.232 (jiawen@dev120.embedfire.local) (gcc version 6.3.1 201704
 
 
 ## 实现延时摄影
+![实物整体图](document/3.png)
 
 ## 1. 配置摄像头
 
@@ -241,6 +244,15 @@ cat@lubancat:~$ sudo apt install vlc
 
 # 2. 执行脚本
 cat@lubancat:~/workspace/clock$ python3 myclock_weather.py
+
+eg:
+cat@lubancat:~/workspace/clock$ python3 myclock_weather.py
+Playing: report_clock_weather.mp3
+[ffmpeg/demuxer] mp3: Estimating duration from bitrate, this may be inaccurate
+ (+) Audio --aid=1 (mp3 1ch 24000Hz)
+AO: [pulse] 24000Hz mono 1ch float
+A: 00:00:21 / 00:00:21 (98%)
+
 ```
 
 此源码实现功能如下：
@@ -365,7 +377,7 @@ cat@lubancat:~$ sudo gpioset 0 15=0
 ![](document/lubancat_fan.png)
 
 2. 蜂窝网络:
-![](document/lubancat_fan_net.png)
+![](document/1.png)
 
 - 装配效果图
 
@@ -373,4 +385,8 @@ cat@lubancat:~$ sudo gpioset 0 15=0
 ![](document/luban_fan.png)
 
 2. 蜂窝网络:
-![](document/luban_fan_net.png)
+![](document/2.png)
+
+- 原设计3D打印文件
+1. [框架结构](document/lubancat_fan.stl)
+2. [蜂窝网络](document/lubancat_fan_net.stl)
