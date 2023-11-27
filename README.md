@@ -50,6 +50,7 @@ Last login: Sun Nov 12 22:21:05 2023 from xx.1.1.yy
 ---
 
 ## 鲁班猫1系统版本
+![鲁班系统](document/desktop.png)
 ```
 cat@lubancat:~$ cat /proc/version
 Linux version 4.19.232 (jiawen@dev120.embedfire.local) (gcc version 6.3.1 20170404 (Linaro GCC 6.3-2017.05), GNU ld (Linaro_Binutils-2017.05) 2.27.0.20161019) #7 SMP Mon Jul 10 16:21:10 CST 2023
@@ -377,12 +378,12 @@ cat@lubancat:~$ sudo gpioset 0 15=0
 ![](document/lubancat_fan.png)
 
 2. 蜂窝网络:
-![](document/1.png)
+![](document/lubancat_fan_net.png)
 
 - 装配效果图
 
 1. 框架结构:
-![](document/luban_fan.png)
+![](document/1.png)
 
 2. 蜂窝网络:
 ![](document/2.png)
