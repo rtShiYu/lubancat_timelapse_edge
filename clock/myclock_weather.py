@@ -30,7 +30,7 @@ while True:
     year = current_time.year
     month = current_time.month
     day = current_time.day
-    if current_time.minute % 1 == 0 and current_time.second == 0:
+    if current_time.minute % 1 == 0 and current_time.second == 0: # 更换时间, 可以间隔1分钟, 5分钟, 30分钟 或者60分钟执行报时和天气
         hour = current_time.hour % 12
         if hour == 0:
             hour = 12
