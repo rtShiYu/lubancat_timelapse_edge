@@ -93,6 +93,8 @@ v4l2-ctl -d /dev/video1 -c auto_exposure=1
 
 ## 2. 拍摄照片
 
+![](document/4.png)
+
 #### 1. 执行拍摄
 `bash ./takephoto.sh >> log.txt &`
 
